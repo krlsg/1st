@@ -1,0 +1,13 @@
+{
+    "name": "accenture/bootcamp",
+    "description": "php bc",
+    "type": "project",
+    "require-dev": {
+        "symfony/var-dumper": "^3.3",
+        "jakub-onderka/php-var-dump-check": "^0.2.0"
+    },
+    "require": {},
+    "autoload": {
+        "psr-4":{"PHPBootcamp\\": "app/"}
+    }
+}
